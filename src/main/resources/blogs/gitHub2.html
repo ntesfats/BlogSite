@@ -1,0 +1,135 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Maven+Pro&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;1,900&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat+Subrayada&display=swap" rel="stylesheet">
+
+    <!-- My Own CSS -->
+    <link rel="stylesheet" href="../stylesheet/main.css">
+    <link rel="stylesheet" href="../stylesheet/blog.css">
+
+    <title>Learn with Nahom</title>
+
+</head>
+
+<body>
+
+    <div class="container-fluid">
+
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="../index.html">
+                <p class="logo">Learn with Nahom</p>
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="../index.html">
+                            <p class="nav-page">Blog</p>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../aboutMe.html">
+                            <p class="nav-page">About Me!</p>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../bootcamp.html">
+                            <p class="nav-page">BootCamp</p>
+                        </a>
+                    </li>
+                </ul>
+                <form class="form-inline my-2 my-lg-0">
+                    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                </form>
+            </div>
+        </nav>
+
+        <!-- Main Page -->
+        <div class="container mainPage">
+            <h1 class="page-title blog-title">
+                    GitHub Cheat Sheet
+                <hr>
+            </h1>
+
+            <p class="dateUploaded">JULY 10, 2020</p>
+
+            <!-- GitHub 1.2 -->
+            <div class="row ">
+                <div class="col">
+                    <p>
+                            
+                            Git is the free and open source distributed version control system that's responsible for everything GitHubrelated that happens locally on your computer. To use the basics of Git, you’ll only need to know a few terms. They all begin the same way, with the word “git.” <br><br>
+                           <strong> git init:</strong> Initializes a new Git repository. Until you run this command inside a repository or directory, it’s just a regular folder. Only after you input this does it accept further Git commands. <br><br>
+
+                            <strong> git config:</strong> Short for “configure,” this is most useful when you’re setting up Git for the first time. <br><br>
+                            
+                            <strong>git help:</strong> Forgot a command? Type this into the command line to bring up the 21 most common git commands. You can also be more specific and type “git help init” or another term to figure out how to use and configure a specific git command.<br><br>
+                            
+                            <strong>git status:</strong> Check the status of your repository. See which files are inside it, which changes still need to be committed, and which branch of the repository you’re currently working on.<br><br>
+                            
+                            <strong>git add:</strong> This does not add new files to your repository. Instead, it brings new files to Git’s attention. After you add files, they’re included in Git’s “snapshots” of the repository.<br><br>
+                            
+                            <strong>git commit:</strong> Git’s most important command. After you make any sort of change, you input this in order to take a “snapshot” of the repository. Usually it goes git commit -m “Message here.” The -m indicates that the following section of the command should be read as a message.<br><br>
+                            
+                            <strong>git branch:</strong> Working with multiple collaborators and want to make changes on your own? This command will let you build a new branch, or timeline of commits, of changes and file additions that are completely your own. Your title goes after the command. If you wanted a new branch called “cats,” you’d type git branch cats.<br><br>
+                            
+                            <strong> git checkout:</strong> Literally allows you to “check out” a repository that you are not currently inside. This is a navigational command that lets you move to the repository you want to check. You can use this command as git checkout master to look at the master branch, or git checkout cats to look at another branch.<br><br>
+                            
+                            <strong> git merge:</strong> When you’re done working on a branch, you can merge your changes back to the master branch, which is visible to all collaborators. git merge cats would take all the changes you made to the “cats” branch and add them to the master.<br><br>
+                            
+                            <strong> git push:</strong> If you’re working on your local computer, and want your commits to be visible online on GitHub as well, you “push” the changes up to GitHub with this command.<br><br>
+                            
+                            <strong>git pull:</strong> If you’re working on your local computer and want the most up-to-date version of your repository to work with, you “pull” the changes down from GitHub with this command.<br><br>
+
+                    </p>
+                    
+                    
+                    <hr>
+                    Source: <a
+                        href="https://readwrite.com/2013/09/30/understanding-github-a-journey-for-beginners-part-1/">
+                        Readwrite
+                    </a>
+
+                    <hr>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

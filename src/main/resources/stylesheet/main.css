@@ -1,0 +1,63 @@
+body {
+    background-image: url(../images/backgroundImage.png);
+}
+
+.blogSnapChat {
+    box-shadow: 0 0 5px;
+    /* background-color: white; */
+    background-image: url(../images/backgroundImage.png);
+    margin-bottom: 20px;
+}
+
+.firstParaOfBlog {
+    color: gray;
+}
+
+.mainPage {
+    margin-top: 40px;
+}
+
+.dateUploaded {
+    font-family: 'Maven Pro', sans-serif;
+}
+
+.blogSnapChat h1, .blogSnapChat h2, .blogSnapChat h3 {
+    font-family: 'Roboto Slab', serif;
+    margin-top: 5px;
+}
+
+.readMoreBtn {
+    margin-bottom: 10px;
+    transition: 0.5s;
+}
+
+.nav-page {
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+}
+
+.logo {
+    font-family: 'Montserrat Subrayada', sans-serif;
+}
+
+.readMoreBtn:hover {
+    background-image: url(../images/backgroundImage.png);
+    color: black;
+    transition: 0.5s;
+}
+
+.page-title {
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+h1 hr {
+    width: 50%;
+
+}
+
+/* Bloog CSS */
+
+
+
+
